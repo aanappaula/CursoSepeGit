@@ -2,8 +2,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: hsla(282, 58%, 47%, 1);
-    background: linear-gradient(90deg, hsla(282, 58%, 47%, 1) 0%, hsla(210, 80%, 29%, 1) 100%);
+    background: rgb(211, 177, 225);
+    background-color:cornflowerblue;
 }
 
 h1 {
@@ -63,7 +63,7 @@ h1 {
     font-size: 18px;
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background: linear-gradient(90deg, hsla(167, 57%, 48%, 1) 0%, hsla(112, 72%, 62%, 1) 100%);
+    background: linear-gradient(90deg, hsla(167, 57%, 48%, 1) 0%, rgb(14, 216, 192) 100%);
     border: none;
     border-radius: 10px;
     transition: 0.5s;
@@ -76,7 +76,7 @@ h1 {
     color: yellow;
 }
 
-#image_1 { background: linear-gradient(90deg, hsla(135, 53%, 50%, 1) 0%, hsla(217, 78%, 69%, 1) 100%); }
-#image_2 { background: linear-gradient(90deg, hsla(229, 54%, 47%, 1) 2%, hsla(281, 80%, 51%, 1) 100%); }
-#image_3 { background: linear-gradient(90deg, hsla(352, 54%, 47%, 1) 2%, hsla(34, 80%, 51%, 1) 100%); }
-#image_4 { background: linear-gradient(90deg, hsla(175, 54%, 47%, 1) 2%, hsla(34, 80%, 51%, 1) 100%); }
+#image_1 { background: linear-gradient(90deg, rgb(60, 157, 195) 0%, hsla(217, 78%, 69%, 1) 100%); }
+#image_2 { background: linear-gradient(90deg, rgb(100, 125, 236) 2%, rgb(208, 170, 226) 100%); }
+#image_3 { background: linear-gradient(90deg, rgb(31, 159, 192) 2%, rgb(108, 207, 220) 100%); }
+#image_4 { background: linear-gradient(90deg, rgb(126, 208, 231) 2%, rgb(30, 123, 230) 100%); }
