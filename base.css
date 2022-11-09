@@ -12,7 +12,7 @@ h1 {
 }
 
 .events {
-    width: 80%;
+    width: 50%;
     background-color: rgba(0, 0, 0, 0.6);
     border-radius: 15px;
     display: flex;
@@ -22,7 +22,8 @@ h1 {
 
 .event {
     width: 550px;
-    border-radius: 10px;
+    border-radius: 20px;
+    border:rgba(0, 0, 0, 0.6) 2px;
     margin: 2.5% 2.5% 2.5% 2.5%;
     background-color: rgb(225, 225, 225);
 }
@@ -72,6 +73,7 @@ h1 {
     cursor: pointer;
     transform: scale(105%);
     transition: 0.5s;
+    color: yellow;
 }
 
 #image_1 { background: linear-gradient(90deg, hsla(135, 53%, 50%, 1) 0%, hsla(217, 78%, 69%, 1) 100%); }
